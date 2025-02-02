@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+
+
+
+
+<div id="divv">
+    <header>
+        <div class="container">
+             <div class="h">
+                   <img src="./img/Group 2(1).png" alt="">
+   
+                    <nav>
+                        <ul>
+                           <li>отзывы</li>
+                           <li>отзывы</li>
+                           <li>отзывы</li>
+                        </ul>
+                    </nav>
+             </div>
+        </div>
+   </header>
+   
+   
+   
+   <section class="s1">
+         <div class="container">
+               <div class="s1ota">
+                    <div class="s1t">
+                         <h1>Инновационные коврики <br>
+                           для автомобиля</h1>
+                            <button class="btn" id="btn3">ЗАКАЗАТЬ</button>
+                    </div>
+   
+                    <img src="./img/коврф 1.png" alt="">
+               </div>
+         </div>
+   </section>
+   
+   <div class="h1">
+       <h1>Что такое <span>EVA</span> коврики?</h1>
+   </div>
+   
+   
+   <section class="s2">
+         <div class="container">
+           <div class="cards">
+               <div class="card">
+                     <img src="./img/image00004 1.jpg" alt="">
+                     <h1>МАТЕРИАЛ</h1>
+                     <p>Коврики EVA всесезонные и отличаются уникальной поверхностью материала с ячейками ромбовидной формы. Из-за чего вода не проливается при изъятии ковра и не плещется при езде. Коврики воду не пропускают.</p>
+               </div>
+               <div class="card">
+                     <img src="./img/image00004 1.jpg" alt="">
+                     <h1>МАТЕРИАЛ</h1>
+                     <p>Коврики EVA всесезонные и отличаются уникальной поверхностью материала с ячейками ромбовидной формы. Из-за чего вода не проливается при изъятии ковра и не плещется при езде. Коврики воду не пропускают.</p>
+               </div>
+               <div class="card">
+                     <img src="./img/image00004 1.jpg" alt="">
+                     <h1>МАТЕРИАЛ</h1>
+                     <p>Коврики EVA всесезонные и отличаются уникальной поверхностью материала с ячейками ромбовидной формы. Из-за чего вода не проливается при изъятии ковра и не плещется при езде. Коврики воду не пропускают.</p>
+               </div>
+          </div>
+         </div>
+   </section>
+   
+   <section class="s3">
+         <div class="">
+                <div class="s3cards">
+                       <div class="box">
+                           <img src="./img/Mask Group.png" alt="">
+                           <p>Покупала у ребят коврики для Хундай <br> солярис в подарок молодому человеку. <br> Все очень понравилось. Буду советовать <br> только вас.</p>
+                       </div>
+                       <div class="box">
+                           <img src="./img/Mask Group.png" alt="">
+                           <p>Покупала у ребят коврики для Хундай <br> солярис в подарок молодому человеку. <br> Все очень понравилось. Буду советовать <br> только вас.</p>
+                       </div>
+                       <div class="box">
+                           <img src="./img/Mask Group.png" alt="">
+                           <p>Покупала у ребят коврики для Хундай <br> солярис в подарок молодому человеку. <br> Все очень понравилось. Буду советовать <br> только вас.</p>
+                       </div>
+                </div>
+         </div>
+   </section>
+   
+   
+   <footer>
+       <div class="container">
+              <div class="f">
+                   <div class="fota">
+                       <h3>МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h3>
+                        <p>+375 29 292-29-29 (VEL)
+                               <br>
+                           +375 33 333-33-33 (МТС)</p>
+                   </div>
+                   <div class="fota">
+                       <h3>МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h3>
+                        <p>+375 29 292-29-29 (VEL)
+                               <br>
+                           +375 33 333-33-33 (МТС)</p>
+                   </div>
+                   <div class="fota">
+                       <h3>МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h3>
+                        <p>+375 29 292-29-29 (VEL)
+                               <br>
+                           +375 33 333-33-33 (МТС)</p>
+                   </div>
+              </div>
+       </div>
+   </footer>
+</div>
+    
+
+
+
+<div class="menu" id="madal">
+      <h2>ФОРМА ЗАЯВКИ</h2>
+      <input type="text" placeholder="Ваше имя">
+      <input type="text" placeholder="Ваше e-mail">
+      <textarea placeholder="Ваше сообщение (марка автомобиля, цвет ковриков, номер телефона)"></textarea><br>
+      <button class="btn" id="btn2">ЗАКАЗАТЬ</button>
+</div>
+
+
+
+
+
+
+<script>
+    const btn3=document.getElementById("btn3")
+    const btn2=document.getElementById("btn2")
+    const menu=document.getElementById("divv")
+    const modal=document.getElementById("madal")
+
+     btn3.addEventListener("click",()=>{
+        menu.style="filter:blur(20px)";
+        modal.style="display:block";
+     })
+     btn2.addEventListener("click",()=>{
+        menu.style="filter:blur(0px)"
+        modal.style="display:none"
+     })
+
+
+</script>
+
+
+
+
+</body>
+</html>
